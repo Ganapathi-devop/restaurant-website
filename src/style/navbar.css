@@ -1,0 +1,23 @@
+.navbar-ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    /* padding-top: 1rem; */
+}
+.navbar-ul a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.navbar-ul a:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.icon{
+    visibility: hidden;
+    
+    width: 2rem;
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
